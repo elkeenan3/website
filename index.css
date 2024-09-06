@@ -5,7 +5,7 @@
 
 /*   Meta   */
 
-body {
+#homepage .body {
 	font-family: 'Iosevka Term Nerd Font';
 	color: var(--fg);
 	width: 100vw;
@@ -13,19 +13,19 @@ body {
 	position: fixed;
 }
 
-.flexbox {
+#homepage .flexbox {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 }
 
-.mainbox {
+#homepage .mainbox {
 	background-color: var(--bg);
 	border-radius: 15px;
 	padding: 12px;
 }
 
-.alpha {
+#homepage .alpha {
 	all:unset;
 	color: rgba(0,0,0,0);
 	background-color: rgba(0,0,0,0);
@@ -35,13 +35,13 @@ body {
 
 /*   Title   */
 
-.title {
+#homepage .title {
 	text-align: center;
 	padding-bottom: 3vh;
 	color: var(--title);
 }
 
-.hl {
+#homepage .hl {
 	color: var(--hl);
 }
 
@@ -49,11 +49,11 @@ body {
 
 /*   Clock + Date   */
 
-#clock {
+#homepage #clock {
 	text-align: center;
 }
 
-#clock, #cal {
+#homepage #clock, #cal {
 	color: var(--title);
 	margin-left: 1rem;
 }
@@ -62,21 +62,21 @@ body {
 
 /*   Quicklinks   */
 
-b {
+#homepage b {
 	color: var(--title);
 }
 
-li {
+#homepage li {
 	list-style-type: none;
 	margin-left: -1rem;
 }
 
-a {
+#homepage a {
 	all: unset;
 	color: var(--fg);
 }
 
-a:hover {
+#homepage a:hover {
 	color: var(--title);
 	text-decoration: underline;
 	cursor: pointer;
@@ -86,11 +86,11 @@ a:hover {
 
 /*   Searchbar   */
 
-.search {
+#homepage .search {
 	margin-top: 12px;
 }
 
-.search input {
+#homepage .search input {
 	background-color: var(--fg);
 	padding: 4px 0.5rem 4px 0.75rem;
 	height: 1.5rem;
@@ -101,7 +101,7 @@ a:hover {
 	border: 0px;
 }
 
-.search button {
+#homepage .search button {
 	background-color: rgba(0,0,0,0);
 	border: 0px;
 	color: #D9E0EE;
@@ -113,13 +113,13 @@ a:hover {
 
 /*   Decoration   */
 
-.cat {
+#homepage .cat {
 	margin-left: 5rem;
 	font-size: 24px;
 	text-align: center;
 }
 
-.colcir {
+#homepage .colcir {
 	width: 32px;
 	height: 32px;
 	border-radius: 16px;
