@@ -1,12 +1,15 @@
+/*   Meta   */
 @font-face {
-    font-family: "Iosevka Term Nerd Font";
-    src: url("/usr/share/fonts/TTF/IosevkaNerdFont-Regular.ttf");
+    font-family: 'Iosevka Web';
+    font-display: swap;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    src: url('WOFF2/Iosevka-Regular.woff2') format('woff2'), url('TTF/Iosevka-Regular.ttf') format('truetype');
 }
 
-/*   Meta   */
-
-#homepage .body {
-	font-family: 'Iosevka Term Nerd Font';
+#homepage body {
+	font-family: "Iosevka Web";
 	color: var(--fg);
 	width: 100vw;
 	height: 100vh;
