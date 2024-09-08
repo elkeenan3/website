@@ -1,7 +1,7 @@
 @import url("index.css");
 
 :root {
-	--bg:		#333C43;
+	--bg:		#333C43BB;
 	--fg:		#9DA9A0;
 	--title:	#D3C6AA;
 	--hl:		#E69875;
@@ -14,4 +14,4 @@
 	--cyan:		#83C092;
 }
 
-body { background-image: url("img/catppuccin-wall.png"); }
+body { background: transparent; }
